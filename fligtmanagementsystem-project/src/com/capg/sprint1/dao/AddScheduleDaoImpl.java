@@ -19,8 +19,9 @@ import com.capg.sprint1.dto.AddSchedule;
 		{
 			l.put(flight.getFlightno(),flight);
 			BigInteger updatecount=flight.getFlightno();
+			System.out.println(updatecount);
 			System.out.println(l.containsKey(updatecount));
-			//System.out.println();
+			System.out.println(l.get(updatecount));
 			return updatecount;
 		}
 

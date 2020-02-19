@@ -195,6 +195,14 @@ public class AddSchedule {
 	public void setDepartureTime(Date departureTime) {
 		this.departureTime = departureTime;
 	}
+
+	@Override
+	public String toString() {
+		return "AddSchedule [flightno=" + flightno + ", flightmodel=" + flightmodel + ", carriername=" + carriername
+				+ ", seatcapacity=" + seatcapacity + ", airportName=" + airportName + ", airportCode=" + airportCode
+				+ ", airportLocation=" + airportLocation + ", sourceAirport=" + sourceAirport + ", destinationAirport="
+				+ destinationAirport + ", arrivalTime=" + arrivalTime + ", departureTime=" + departureTime + "]";
+	}
 	
  
 	}
